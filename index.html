@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+        <h1>Simple Interest Calculator</h1>
+   </header>
+   <section class="home">
+        <div class="calculator">
+            <form action="">
+                <label class="name">Principal</label>
+                <input id="amount" class="input" type="text" placeholder="Enter amount">
+                <label class="name">Rate</label>
+                <input id="rate" class="input" type="number" placeholder="Enter rate">
+                <label class="name">Time in Years</label>
+                <input id="year" class="input" type="text" placeholder="Enter time in years">
+                <div class="button">
+                    <button class="btn1" type="button" onclick="siBtn()">Submit</button>
+                    <button class="btn2" type="button" onclick="clearFields()">Clear</button> 
+                </div>
+            
+            </form>
+            <p id="si"></p>
+         </div>
+   </section>
+   
+<script src="script.js"></script>    
+</body>
+</html>
